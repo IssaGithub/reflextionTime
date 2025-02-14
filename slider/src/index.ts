@@ -1,1 +1,1 @@
-export * from './lib/slider/stepper.component';
+export * from './lib/slider/components';

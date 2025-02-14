@@ -6,6 +6,7 @@ import { StepComponent } from './step.component';
   selector: 'jim-stepper',
   imports: [CommonModule],
   templateUrl: './stepper.component.html',
+  standalone: true,
   styleUrl: './stepper.component.css',
 })
 export class StepperComponent {

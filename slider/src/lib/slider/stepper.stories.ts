@@ -1,7 +1,7 @@
 import { type Meta, StoryObj } from '@storybook/angular';
-import { StepperComponent } from './stepper.component';
-import { StepComponent } from './step.component';
+import { StepperComponent } from './components/stepper.component';
 import { Example1Component } from '../storybook/components/example1.component';
+import { StepComponent } from './components/step.component';
 export default {
   title: 'Components/stepper',
   component: StepperComponent,
