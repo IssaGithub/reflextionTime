@@ -1,0 +1,24 @@
+<div class="stepper">
+  <div
+    *ngFor="let step of steps; let i = index"
+    [class.active]="i === activeStep"
+    (click)="goToStep(i)">
+    Step {{ i + 1 }}:{{ step }}
+  </div>
+</div>
+<ng-template #defaultTabButtons>
+  <div class="default-tab-buttons">yxycxycxy</div>
+</ng-template>
+<ng-container *ngIf="steps.length">
+  <ng-container
+    [ngTemplateOutlet]="
+      steps ? steps.get(activeStep)?.template ?? null : defaultTabButtons
+    ">
+  </ng-container>
+</ng-container>
+{{ steps.length }}
+<div class="buttons">
+  <button (click)="previous()" [disabled]="activeStep === 0"></button>
+  <button (click)="previous()" *ngIf="activeStep < steps.length"></button>
+  <button (click)="finish()" *ngIf="activeStep === steps.length - 1"></button>
+</div>

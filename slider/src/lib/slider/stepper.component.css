@@ -1,0 +1,12 @@
+.stepper {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.buttons {
+  margin-top: 20px;
+}
