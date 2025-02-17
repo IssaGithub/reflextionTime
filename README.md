@@ -33,7 +33,7 @@ npx nx show project reflextionTime
 
 ```sh
 npx nx run slider:storybook
-'''
+```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
 
