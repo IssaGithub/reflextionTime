@@ -32,6 +32,7 @@ npx nx show project reflextionTime
 ```
 
 ```sh
+npx nx g @nx/angular:storybook-configuration slider
 npx nx run slider:storybook
 ```
 
