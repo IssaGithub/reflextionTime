@@ -32,6 +32,10 @@ npx nx show project reflextionTime
 ```
 
 ```sh
+ nx g @nx/angular:component  path/componentname --> path = e.g. src/app/...
+```
+
+```sh
 npx nx g @nx/angular:storybook-configuration slider
 npx nx run slider:storybook
 ```
